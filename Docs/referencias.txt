@@ -1,0 +1,7 @@
+
+
+
+
+#https://medium.com/tacosdedatos/herramientas-para-pron%C3%B3sticos-de-series-de-tiempo-en-python-parte-1-sarimax-89ff0a97b030
+
+https://medium.com/@wainaina.pierre/the-complete-guide-to-time-series-forecasting-models-ef9c8cd40037
