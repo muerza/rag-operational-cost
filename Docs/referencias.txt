@@ -1,7 +1,27 @@
-
-
-
-
-#https://medium.com/tacosdedatos/herramientas-para-pron%C3%B3sticos-de-series-de-tiempo-en-python-parte-1-sarimax-89ff0a97b030
-
+Herramientas para Pronósticos de Series de Tiempo
+https://medium.com/tacosdedatos/herramientas-para-pron%C3%B3sticos-de-series-de-tiempo-en-python-parte-1-sarimax-89ff0a97b030
 https://medium.com/@wainaina.pierre/the-complete-guide-to-time-series-forecasting-models-ef9c8cd40037
+
+
+Metodologia holtwinters
+https://rpubs.com/rjuarez/ResumenFinalMCAA
+https://medium.com/tacosdedatos/herramientas-para-pron%C3%B3sticos-de-series-de-tiempo-en-python-parte-2-holt-winters-adb1bd0d7b84
+https://www.statsmodels.org/stable/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html
+
+RAG 
+https://brahmankarsaurabh.medium.com/a-comprehensive-cheatsheet-on-retrieval-augmented-generation-rag-systems-and-techniques-dd00a7662010
+https://www.llamaindex.ai/blog/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b
+
+LLM Tool Use with LangChain RAG
+https://www.datacamp.com/courses/llm-tool-use-with-langchain?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=coursedetailpage
+https://www.datacamp.com/courses/llm-application-fundamentals-with-langchain?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=coursedetailpage
+https://www.datacamp.com/blog/what-is-retrieval-augmented-generation-rag
+https://docs.langchain.com/oss/python/deepagents/rag
+https://www.youtube.com/watch?v=4KiiKQ9RVvA&t=726s
+https://www.youtube.com/watch?v=PByDzuOrkek
+https://www.youtube.com/watch?v=MlhZPTfOJBo
+https://www.youtube.com/watch?v=e-GR3PlEOVU&t=200s
+
+Data Modeling
+https://www.datacamp.com/blog/data-modeling
+https://pydantic.dev/docs/validation/latest/concepts/models/

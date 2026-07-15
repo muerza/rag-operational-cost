@@ -4,15 +4,15 @@ from pathlib import Path
 from fastapi import FastAPI
 
 FOLDER = Path.cwd()
-DATA_RUTE = FOLDER / 'Data'
+DATA_PATH = FOLDER / 'Data'
 
 # Warning por errores en el formato del csv
-data_y = pd.read_csv(DATA_RUTE / 'Y.csv', index_col=[0], parse_dates=[0], dayfirst=True, sep=';', decimal=',')
+data_y = pd.read_csv(DATA_PATH / 'Y.csv', index_col=[0], parse_dates=[0], dayfirst=True, sep=';', decimal=',')
 data_y.sort_index(inplace=True)
 data_y.resample('ME')
 
-# Las columnas estan invertidas
-data_z = pd.read_csv(DATA_RUTE / 'Z.csv', index_col='Date', parse_dates=['Date'])
+# Las columnas están invertidas
+data_z = pd.read_csv(DATA_PATH / 'Z.csv', index_col='Date', parse_dates=['Date'])
 data_z.sort_index(inplace=True)
 data_z.resample('ME')
 

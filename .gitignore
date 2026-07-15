@@ -1,5 +1,13 @@
 
 #Carpetas exluidas
+
 /Data
+
 /venv
 .venv/
+
+__pycache__/
+.pyc
+
+# Entornos
+.env 
