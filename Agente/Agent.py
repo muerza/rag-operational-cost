@@ -5,6 +5,7 @@ from langchain.tools import tool
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage, SystemMessage
 from langchain_core.prompts import PromptTemplate
+from langchain.agents import create_agent
 import gradio as gr
 from tools.tools import price_y, proyectar_precio, predict_e1, PRICE_Y_API_URL
 from pathlib import Path
@@ -20,6 +21,17 @@ RANDOM_STATE = 484616
 # Desde:  1. rag-operational-cost>
 # Usar fastapi dev API\main.py para simular las APIs
 
+
+
+def check_weather(location: str) -> str:
+    '''Return the weather forecast for the specified location.'''
+    return f"It's always sunny in {location}"
+
+graph = create_agent(
+    model="anthropic:claude-sonnet-4-5-20250929",
+    tools=[check_weather],
+    system_prompt="You are a helpful assistant",
+)
 
 @tool
 def query_proyectar_precio(fecha_inicial: str, fecha_final: str, meses_a_proyectar: int = 6):

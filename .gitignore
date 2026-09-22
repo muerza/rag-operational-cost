@@ -1,4 +1,7 @@
 
+Caso.pdf
+Reporte-revision-rag-operational-cost
+
 #Carpetas exluidas
 
 /Data
@@ -6,8 +9,11 @@
 /venv
 .venv/
 
+API/__pycache__/*.pyc
+Agente/agentes backup/
 __pycache__/
-.pyc
+*.pyc
 
 # Entornos
 .env 
+.
